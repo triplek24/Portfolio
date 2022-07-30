@@ -10,7 +10,7 @@ import url from "../../Assets/Projects/URLShortener.png";
 import ecommerace from "../../Assets/Projects/Ecommerace.png";
 import oyo from "../../Assets/Projects/oyo.png";
 import pokemon from "../../Assets/Projects/pokemon.png";
-
+import Diet from "../../Assets/Projects/Diet.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -45,6 +45,36 @@ function Projects() {
               demoLink="https://karthi-url-shortend.netlify.app/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerace}
+              isBlog={false}
+              title="Ecommerace Website"
+              description="An ecommerce store build with MERN stack, and utilizes third party API's. Implementation of Add to Cart and Delete and Admin access and payment method using Nodejs,Reactjs"
+              ghLink="https://github.com/triplek24/Ecommerace-Front"
+              demoLink="https://shoppeestop.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={oyo}
+              isBlog={false}
+              title="Oyo-Clone-XYZ-Rooms"
+              description="An Oyo-clone XYZ Room booking app build with MERN stack and implementation of features of Booking rooms,cancel Bokking,Adding rooms dat to Database,Edit rooms, Payment access."
+              ghLink="https://github.com/triplek24/Oyo-RoomBooking-App"
+              demoLink="https://mern-rooms-app.herokuapp.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Diet}
+              isBlog={false}
+              title="Diet-Suggestion-App"
+              description="Calorie Counter is a MERN stack application that can help you manage the number of calories you take a day in order to maintain a healthier diet."
+              ghLink="https://github.com/triplek24/Diet-Suggestion-Calorie-Calculator"
+              demoLink="https://g-calorie-counter.herokuapp.com/"
+            />
+            </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -92,26 +122,7 @@ function Projects() {
               demoLink="https://ephemeral-kitten-61109f.netlify.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ecommerace}
-              isBlog={false}
-              title="Ecommerace Website"
-              description="An ecommerce store build with MERN stack, and utilizes third party API's. Implementation of Add to Cart and Delete and Admin access and payment method using Nodejs,Reactjs"
-              ghLink="https://github.com/triplek24/Ecommerace-Front"
-              demoLink="https://shoppeestop.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={oyo}
-              isBlog={false}
-              title="Oyo-Clone-XYZ-Rooms"
-              description="An Oyo-clone XYZ Room booking app build with MERN stack and implementation of features of Booking rooms,cancel Bokking,Adding rooms dat to Database,Edit rooms, Payment access."
-              ghLink="https://github.com/triplek24/Oyo-RoomBooking-App"
-              demoLink="https://mern-rooms-app.herokuapp.com/"
-            />
-          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pokemon}
